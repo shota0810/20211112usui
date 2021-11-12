@@ -1,0 +1,86 @@
+/* create */
+.create{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+.input-create {
+    width: 80%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid #ccc;
+    appearance: none;
+    font-size: 1.4rem;
+    outline: none;
+}
+.button-create {
+    text-align: left;
+    border: 0.2rem solid #dc70fa;
+    font-size: 1.2rem;
+    color: #dc70fa;
+    background-color: #fff;
+    font-weight: bold;
+    padding: 0.8rem 1.6rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: 0.4s;
+    outline: none;
+}
+.button-create:hover{
+    color: #fff;
+    background-color:#dc70fa;
+}
+
+/* update/delete */
+table {
+    text-align: center;
+    width: 100%;
+}
+tr {
+    height: 5rem;
+}
+.input-update {
+    width: 90%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid #ccc;
+    appearance: none;
+    font-size: 1.4rem;
+    outline: none;
+}
+.button-update {
+    text-align: left;
+    border: 0.2rem solid #fa9770;
+    font-size: 1.2rem;
+    color: #fa9770;
+    background-color: #fff;
+    font-weight: bold;
+    padding: 0.8rem 1.6rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: 0.4s;
+    outline: none;
+}
+.button-update:hover{
+    color: #fff;
+    background-color: #fa9770;
+}
+
+/* delete */
+.button-delete {
+    text-align: left;
+    border: 0.2rem solid #71fadc;
+    font-size: 1.2rem;
+    color: #71fadc;
+    background-color: #fff;
+    font-weight: bold;
+    padding: 0.8rem 1.6rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: 0.4s;
+    outline: none;
+}
+.button-delete:hover{
+    color: #fff;
+    background-color: #71fadc;
+}
